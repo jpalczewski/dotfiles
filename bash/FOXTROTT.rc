@@ -1,0 +1,7 @@
+#.bashrc only for FOXTROTT machine
+
+PATH=$PATH:/home/erxyi/.go/bin:/home/erxyi/.Nozbe:/home/erxyi/FOXTROTT/bin
+
+export GOPATH=/home/erxyi/.go
+export KDEHOME=/home/erxyi/.kde4
+

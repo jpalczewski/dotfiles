@@ -6,6 +6,7 @@
 
 - link:
     ~/.bashrc: 'bashrc'
+    ~/.bash: 'bash'
     ~/.commonbashrc: 'commonbashrc'
     ~/.vim: 'vim'
     ~/.vimrc: 'vimrc'

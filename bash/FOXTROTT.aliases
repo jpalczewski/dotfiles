@@ -1,0 +1,5 @@
+alias foxit='KDEHOME=~/.kde4-foxit foxitreader'
+alias lotto='od -An -N1 -i /dev/random'
+alias sagenotebook='sage -c "notebook(automatic_login=True)"'
+alias terminaloff='watch nologin'
+alias pythonnotebook='jupyter notebook'

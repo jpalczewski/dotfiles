@@ -7,22 +7,22 @@
 
 pdfmerge() { gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -sOutputFile=$@ ; }
 
-PATH=$PATH:/home/erxyi/.go/bin:/home/erxyi/.Nozbe:/home/erxyi/FOXTROTT/bin
 
-export GOPATH=/home/erxyi/.go
-export KDEHOME=/home/erxyi/.kde4
+source ~/.commonbashrc
+
+for f in ~/.bash/$(hostname).{rc,aliases}; do
+    if [ -f f ]; then
+        source $f
+    fi
+done
+
 export VISUAL=vim
 export EDITOR=vim
+export TERM=xterm-256color
 
-TERM=xterm-256color
+
 alias ls='ls --color=auto'
-alias lotto='od -An -N1 -i /dev/random'
-alias sagenotebook='sage -c "notebook(automatic_login=True)"'
-alias terminaloff='watch nologin'
-alias pythonnotebook='jupyter notebook'
-alias foxit='KDEHOME=~/.kde4-foxit foxitreader' 
-#PS1='[\u@\h \W]\$ '
-source .commonbashrc 
 
 
-eval $(thefuck --alias)
+
+eval "$(thefuck --alias)"
