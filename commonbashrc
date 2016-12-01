@@ -1,0 +1,18 @@
+# vim: filetype=sh
+RESET="$(tput sgr0)"
+GREEN="$(tput setaf 118)"
+BLUE="$(tput setaf 92)"
+ORANGE="$(tput setaf 214)"
+RED="$(tput setaf 196)"
+YELLOW="$(tput setaf 227)"
+exitstatus()
+{
+    if [[ $? == 0 ]]; then
+        echo "${GREEN}" 
+    else
+        echo "${RED}" 
+    fi
+}
+
+#export PS1="[${ORANGE}\u${EXIT}@\${BLUE}\h \W]${RESET}\$ " 
+export PS1='[${ORANGE}\u$(exitstatus)@${BLUE}\h ${YELLOW}\w${RESET}]\$ ' 
