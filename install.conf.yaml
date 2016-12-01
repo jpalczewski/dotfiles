@@ -10,3 +10,4 @@
     ~/.commonbashrc: 'commonbashrc'
     ~/.vim: 'vim'
     ~/.vimrc: 'vimrc'
+    ~/.gitconfig: 'gitconfig'

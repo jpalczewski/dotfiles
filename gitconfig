@@ -1,0 +1,6 @@
+[user]
+	email = jpalczewski@gmail.com
+	name = jpalczewski
+	signingkey = 82F73BBCA6DD1D9AAFF4A6CB254AE591494084D6
+[commit]
+	gpgsign = true
