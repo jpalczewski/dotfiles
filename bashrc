@@ -16,6 +16,8 @@ for f in ~/.bash/$(hostname).{rc,aliases}; do
     fi
 done
 
+
+set -o vi
 export VISUAL=vim
 export EDITOR=vim
 export TERM=xterm-256color

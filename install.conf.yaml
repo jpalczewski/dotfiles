@@ -11,3 +11,4 @@
     ~/.vim: 'vim'
     ~/.vimrc: 'vimrc'
     ~/.gitconfig: 'gitconfig'
+    ~/.profile: 'profile'
