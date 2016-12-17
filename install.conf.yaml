@@ -12,3 +12,4 @@
     ~/.vimrc: 'vimrc'
     ~/.gitconfig: 'gitconfig'
     ~/.profile: 'profile'
+    ~/.config/liquidpromptrc: 'liquidpromptrc'

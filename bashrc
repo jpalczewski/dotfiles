@@ -4,13 +4,13 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+[[ $- = *i* ]] && source $HOME/.dotfiles/liquidprompt/liquidprompt 
 
 pdfmerge() { gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -sOutputFile=$@ ; }
 
+#source $HOME/.commonbashrc
 
-source ~/.commonbashrc
-
-for f in ~/.bash/$(hostname).{rc,aliases}; do
+for f in $HOME/.bash/$(hostname).{rc,aliases}; do
     if [ -f f ]; then
         source $f
     fi
