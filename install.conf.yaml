@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.zshrc: 'zshrc'
     ~/.bashrc: 'bashrc'
     ~/.bash: 'bash'
     ~/.commonbashrc: 'commonbashrc'
