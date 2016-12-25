@@ -3,4 +3,10 @@
 	url = https://github.com/anishathalye/dotbot
 [submodule "liquidprompt"]
 	path = liquidprompt
-	url = https://github.com/nojhan/liquidprompt
+    url = https://github.com/nojhan/liquidprompt
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+    url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "zsh-autosuggestions"]
+	path = zsh-custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
