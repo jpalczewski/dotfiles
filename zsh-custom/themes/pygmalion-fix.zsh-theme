@@ -9,6 +9,9 @@ prompt_setup_pygmalion(){
   base_prompt='' 
   if [ `hostname` = "FOXTROTT" ]; then
     base_prompt='%{$FG[129]%}%n%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$FG[154]%}%m%{$reset_color%}%{$fg[red]%}:%{$reset_color%}%{$FG[226]%}%0~%{$reset_color%}%{$fg[red]%}|%{$reset_color%}'
+
+  elif [ `hostname` = "juliett" ]; then
+    base_prompt='%{$FG[129]%}%n%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$FG[174]%}%m%{$reset_color%}%{$fg[red]%}:%{$reset_color%}%{$FG[226]%}%0~%{$reset_color%}%{$fg[red]%}|%{$reset_color%}'
   fi
   post_prompt='%{$fg[cyan]%}⇒%{$reset_color%}  '
 
