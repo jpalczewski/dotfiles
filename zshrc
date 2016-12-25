@@ -1,5 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 export UPDATE_ZSH_DAYS=1
+export TERM="xterm-256color"
+export ZSH_CUSTOM=$HOME/.dotfiles/zsh-custom
+
 
 source ~/.dotfiles/antigen/antigen.zsh
 
@@ -12,10 +15,10 @@ antigen bundles <<EOBUNDLES
     thefuck
     zsh-users/zsh-autosuggestions
     colored-man-pages
-    
+    unixorn/warhol.plugin.zsh    
 EOBUNDLES
 
 antigen apply
 #source $ZSH/oh-my-zsh.sh
-
-antigen theme pygmalion
+source ~/.dotfiles/zsh-custom/themes/pygmalion-fix.zsh-theme
+#antigen theme pygmalion-fix
