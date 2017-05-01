@@ -16,7 +16,13 @@ antigen bundles <<EOBUNDLES
     docker
     zsh-users/zsh-autosuggestions
     colored-man-pages
-    unixorn/warhol.plugin.zsh    
+    unixorn/warhol.plugin.zsh
+    virtualenvwrapper
+    systemd
+    sudo
+    httpie
+    docker
+    archlinux    
 EOBUNDLES
 
 antigen apply
